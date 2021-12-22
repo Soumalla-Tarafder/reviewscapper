@@ -12,7 +12,7 @@ class MongoDBManagement:
         try:
             self.username = username
             self.password = password
-            self.url = "mongodb+srv://ineuron:ineuron@cluster1.ypvyb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(
+            self.url = "mongodb+srv://soumalla1:12345@cluster0.028f1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(
                 self.username, self.password)
             # self.url = 'localhost:27017'
         except Exception as e:
