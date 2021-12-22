@@ -1,1 +1,1 @@
-using this app u can scap review for a particular product from flipkart website 
+using this app u can scrap review for a particular product from flipkart website 
