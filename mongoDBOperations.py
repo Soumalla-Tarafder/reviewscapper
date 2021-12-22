@@ -10,9 +10,9 @@ class MongoDBManagement:
         This function sets the required url
         """
         try:
-            self.username = soumalla1
-            self.password = 12345
-            self.url = "mongodb+srv://{}:{}@cluster1.ypvyb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(
+            self.username = username
+            self.password = password
+            self.url = "mongodb+srv://ineuron:ineuron@cluster1.ypvyb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority".format(
                 self.username, self.password)
             # self.url = 'localhost:27017'
         except Exception as e:
